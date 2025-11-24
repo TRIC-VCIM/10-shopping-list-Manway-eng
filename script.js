@@ -77,7 +77,7 @@ function removeItem(e) {
 }
 
 localStorage.setItem ('name', 'Brad');
-
+// theres a problem here with mismatched braces
 } else {
     if (checkIfItemExists(newItem)) {
 alert ('That item already exists!');
